@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Start Quiz - Quiz Portal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="recent-assessments.html">Recent Assessments</a></li>
+                <li><a href="start-quiz.html">Start Quiz</a></li>
+                <li><a href="sign-out.html">Sign Out</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Welcome to the Quiz Portal</h1>
+        <p>To start a new quiz, please read the instructions below:</p>
+        <ol>
+            <li>Select the quiz you want to take.</li>
+            <li>Read each question carefully.</li>
+            <li>Select the answer you believe is correct.</li>
+            <li>Submit your answers at the end of the quiz.</li>
+        </ol>
+        <button onclick="startQuiz()">Begin Quiz</button>
+    </main>
+    <footer>
+        <p>&copy; 2023 Quiz Portal. All rights reserved.</p>
+    </footer>
+    <script>
+        function startQuiz() {
+            // Logic to start the quiz goes here
+            window.location.href = 'start.html'; // Redirect to the quiz page
+        }
+    </script>
+</body>
+</html>
